@@ -42,7 +42,7 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 
 ### Personas
 
-- Persona Primaria:
+- Persona Primaria (Autor: Thiago Monteiro Tinonin):
 
 | Categoria      | Dados |
 | ----------- | ----------- |
@@ -53,10 +53,11 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 | Sentimentos  | Constantemente ansioso, com receio de que sua identidade virtual será invadida, desde os meios mais imprevisíveis |
 | Midia  | Consome conteúdos geeks por meio do YouTube e series e filmes de super heróis |
 | Tempo utilizando IoTs por dia | 3h |
+| Numero de dispositivos | 4 |
 | Dispositivos minimamente configurados? | Sim |
 | Dispositivos de qualidade? | Não |
 
-- Persona Secundaria:
+- Persona Secundaria (Autor: Angelo Gabriel Vasconcelos Baptista):
 
  | Categoria      | Dados |
 | ----------- | ----------- |
@@ -67,7 +68,23 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 | Sentimentos  | Tranquilo, porém atento com questões tecnológicas de sua empresa e receoso com vazamentos de dados internos |
 | Midia  | Consome conteúdo político pela televisão, e acessa sites de notícias pelo seu Blackberry |
 | Tempo utilizando IoTs por dia | 16h |
+| Numero de dispositivos | 34 |
 | Dispositivos minimamente configurados? | Sim |
+| Dispositivos de qualidade? | Sim |
+
+- Persona Extrema (Autor: Rafael Augusto Feliciano Assembleia):
+
+| Categoria      | Dados |
+| ----------- | ----------- |
+| Nome        | Severino       |
+| Nascido em  | 1970        |
+| Trabalho  | Programador |
+| Hobbies  | Programação em assembly 6502 e pescaria |
+| Sentimentos  | Tranquilo |
+| Midia  | Leitura de livros e jornais |
+| Tempo utilizando IoTs por dia | 20m |
+| Número de dispositivos | 1 |
+| Dispositivos minimamente configurados? | Não |
 | Dispositivos de qualidade? | Sim |
 
 O serviço irá armazenar informações relacionadas aos dispositivos IoT das personas e seu ano de nascimento.
