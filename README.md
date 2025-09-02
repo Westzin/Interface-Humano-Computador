@@ -12,15 +12,15 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Uma
 
 ## Introdução
 
-Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
-- Apresente uma breve descrição.
-- Apresente o objetivo. 
-- Apresente o usuário final.
-- Apresente os principais benefícios para o usuários.
-- Apresente as funcionalidades.
-- Apresente as tecnologias e ferramentas computacionais utilizadas.
-- Apresente o contexto de uso.
-- O produto ou serviço prevê o desenvolvimento de interface? (Sim/Não)
+O objetivo de nosso serviço é realizar a detecção de intrusos em redes de computadores utilizando uma abordagem baseada em modelos bayesianos e redes neurais profundas, onde os usuários finais serão organizações e entusiastas que precisam de segurança em sua rede local que utilizam dispositivos de internet das coisas (IoT). Um sistema mais seguro e maior controle da rede será fornecido para os usuários. As seguintes funcionalidades serão propostas:
+
+ - Habilitar/Desabilitar o sistema
+ - Checar Log de comportamentos dos usuários da rede
+ - Configurar opções do sistema
+   
+Para o desenvolvimento do projeto usaremos Python com Scikit-learn (sklearn) e TensorFlow como ferramentas de machine-learning e redes neurais.
+
+O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de computadores, monitorando o comportamento de cada computador. No contexto em que existe uma interface para humanos, poderia ser utilizado para habilitar ou desabilitar o funcionamento do IDS, bem como configurar opções do sistema. A interface teria que ser utilizada por profissionais de segurança da informação e seria utilizada quando houvesse algum problema que solicitasse manutenção do sistema. É importante ressaltar que o produto não prevê o desenvolvimento de uma interface.
 
 ## Publico Alvo
 
