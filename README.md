@@ -24,8 +24,9 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 
 ## Publico Alvo
 
-- Determine qual o grupo específico de pessoas ou organizações para as quais este produto ou serviço é direcionado.
-- Descreva as caracteristicas demográficas, comportamentais, psicográficas ou geográficas deste público alvo que o torna mais propenso a se interessar pelo que está sendo oferecido neste projeto ou serviço.
+- Entusiastas que utilizam (ao menos minimamente) dispositivos IoT dentro de sua rede doméstica, onde o mesmo possui interesse em tecnologia como um Hobby, porém lida com frustações e medo de sua rede ser invadida por meio de seus dispositivos baratos de IoT com IP público e assim comprometer sua privacidade, para este tipo de usuário, pode ser de qualquer lugar do mundo, pois dessa forma estarem lidando com protocolos universais de redes de computadores.
+
+ - Empresas que utilizam dispositivos simples de IoT ou dispositivos de internet das coisas industrial (IIoT), pois elas lidam com diversos dados sensíveis que não podem ser expostos, desde informações sobre servidores ou até mesmo informações sobre colaboradores, estas empresas devem se localizar no Brasil, pois apesar de estarmos lidando com protocolos universais de redes de computadores, também lidaremos com legislações de cada região, como a LGPD.
 
 ## Análise de concorrência
 
