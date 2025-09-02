@@ -42,12 +42,35 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 
 ### Personas
 
-- Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o serviço ou poduto deve guardar?
+- Persona Primaria:
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+| Categoria      | Dados |
+| ----------- | ----------- |
+| Nome        | Eduardo       |
+| Nascido em  | 2000        |
+| Trabalho  | Entregador        |
+| Hobbies  | Tecnologias em geral, desde computadores retro, até videogames modernos |
+| Sentimentos  | Constantemente ansioso, com receio de que sua identidade virtual será invadida, desde os meios mais imprevisíveis |
+| Midia  | Consome conteúdos geeks por meio do YouTube e series e filmes de super heróis |
+| Tempo utilizando IoTs por dia | 3h |
+| Dispositivos minimamente configurados? | Sim |
+| Dispositivos de qualidade? | Não |
+
+- Persona Secundaria:
+
+ | Categoria      | Dados |
+| ----------- | ----------- |
+| Nome        | Nicholas       |
+| Nascido em  | 1990        |
+| Trabalho  | CTO de multinacional        |
+| Hobbies  | Golf e Tenis aos finais de semana |
+| Sentimentos  | Tranquilo, porém atento com questões tecnológicas de sua empresa e receoso com vazamentos de dados internos |
+| Midia  | Consome conteúdo político pela televisão, e acessa sites de notícias pelo seu Blackberry |
+| Tempo utilizando IoTs por dia | 16h |
+| Dispositivos minimamente configurados? | Sim |
+| Dispositivos de qualidade? | Sim |
+
+O serviço irá armazenar informações relacionadas aos dispositivos IoT das personas e seu ano de nascimento.
 
 ### Mapa de empatia
 
