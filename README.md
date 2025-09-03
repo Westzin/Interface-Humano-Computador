@@ -111,7 +111,7 @@ O serviço irá armazenar informações relacionadas aos dispositivos IoT das pe
 
 ## Mapa de empatia
 
-![Mapa de empatia](empatia.png)
+[empatia.png](https://github.com/FagnerPimentel-Academic/template-ihc/blob/3471821dc52120e61c5648dc3156a83672f35a4a/docs/imagens/empatia.png)
 
 ### Persona Primaria.
   
