@@ -30,15 +30,19 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 
 ## Análise de concorrência
 
-1. Identifique os principais concorrentes ou softwares mais utilizados pelo seu público-alvo.
-2. Colete informações sobre os concorrentes selecionados.
-3. Analise as características e funcionalidades dos concorrentes.
-4. Avalie a experiência do usuário (UX).
-5. Examine os preços e modelos de negócio.
-6. Pesquisa de satisfação do cliente e opiniões.
-7. Identifique padrões e tendências no mercado.
-8. Elabore relatórios e sumarize os resultados.
-9. Extraia pontos positivos e faça recomendações.
+#### [Bitdefender](https://www.bitdefender.com/pt-br/)
+
+ - Antivírus com detecção de atividades suspeitas na rede.
+ - Protecao para dispositivos hospedeiros na rede.
+ - Sistema de Deteccao de Intrusao (IDS).
+ - Precos extremamente altos tanto em planos individuais e familiares (entre R$300 ate R$600).
+ - Usuarios avaliam em forums como um produto bom a razoavel, como dizes nesta publicacao do Reddit: [link](https://www.reddit.com/r/antivirus/comments/16lu52w/is_bitdefender_really_good/)
+ - Sites profissionais avaliam muito bem o produto como: [PCMag](https://www.pcmag.com/reviews/bitdefender-antivirus-plus) [CNET](https://www.cnet.com/tech/services-and-software/bitdefender-antivirus-review/)
+ - Recomendo uma melhora em pontos de performance, pois para caregar o site foram gastos 3 segundos encarando para uma tela branca.
+ - Pontos de UX tambem precisam ser avalidados, pois um usuario leigo nao entende o que o produto oferece, pois a primeira coisa que o mesmo se depara, eh uma tela de Pricing e dizendo vagamente que o produto se trata de um antivirus.
+
+   <img width="1239" height="936" alt="image" src="https://github.com/user-attachments/assets/f53a69e8-b775-444c-b856-c86c213a21d4" />
+
 
 ### Personas
 
