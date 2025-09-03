@@ -33,15 +33,31 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 #### [Bitdefender](https://www.bitdefender.com/pt-br/)
 
  - Antivírus com detecção de atividades suspeitas na rede.
- - Protecao para dispositivos hospedeiros na rede.
- - Sistema de Deteccao de Intrusao (IDS).
- - Precos extremamente altos tanto em planos individuais e familiares (entre R$300 ate R$600).
- - Usuarios avaliam em forums como um produto bom a razoavel, como dizes nesta publicacao do Reddit: [link](https://www.reddit.com/r/antivirus/comments/16lu52w/is_bitdefender_really_good/)
+ - Proteção para dispositivos hospedeiros na rede.
+ - Sistema de Detecção de Intrusão (IDS).
+ - Preços extremamente altos tanto em planos individuais e familiares (entre R$300 até R$600).
+ - Usuários avaliam em fóruns como um produto bom a razoável, como dizes nesta publicação do Reddit: [link](https://www.reddit.com/r/antivirus/comments/16lu52w/is_bitdefender_really_good/)
  - Sites profissionais avaliam muito bem o produto como: [PCMag](https://www.pcmag.com/reviews/bitdefender-antivirus-plus) [CNET](https://www.cnet.com/tech/services-and-software/bitdefender-antivirus-review/)
- - Recomendo uma melhora em pontos de performance, pois para caregar o site foram gastos 3 segundos encarando para uma tela branca.
- - Pontos de UX tambem precisam ser avalidados, pois um usuario leigo nao entende o que o produto oferece, pois a primeira coisa que o mesmo se depara, eh uma tela de Pricing e dizendo vagamente que o produto se trata de um antivirus.
+ - Recomendo uma melhora em pontos de performance, pois para carregar o site foram gastos 3 segundos encarando para uma tela branca.
+ - Pontos de UX também precisam ser avaliados, pois um usuário leigo não entende o que o produto oferece, pois a primeira coisa que o mesmo se depara, é uma tela de Pricing e dizendo vagamente que o produto se trata de um antivírus.
 
    <img width="1239" height="936" alt="image" src="https://github.com/user-attachments/assets/f53a69e8-b775-444c-b856-c86c213a21d4" />
+
+### [kaspersky](https://www.kaspersky.com.br/)
+
+ - Antivírus com tecnologia de IA
+ - Proteção de dispositivos conectados a rede.
+ - Preços acessíveis, entre R$100 a R$200.
+
+   <img width="1145" height="620" alt="image" src="https://github.com/user-attachments/assets/c42d751a-f861-4db9-8942-f67910a6d55e" />
+
+ - Site performático, com interface fluida e dinâmica.
+ - Um usuário leigo estará ciente de todos os serviços oferecidos pela plataforma, pois estas informação são disponibilizadas com clareza.
+
+   <img width="1147" height="674" alt="image" src="https://github.com/user-attachments/assets/b00d491e-01b2-4201-a58e-b8fbecf84478" />
+
+ - Usuários comuns acreditam ser um ótimo produto a nível profissional com preço acessível, como diz este post do Reddit: [link](https://www.reddit.com/r/antivirus/comments/1ddtnxc/how_good_is_kaspersky/)
+ - Rankings como AV Test, avaliam o mesmo como um produto exemplar: [link](https://www.av-test.org/en/antivirus/home-windows/manufacturer/kaspersky-lab/)
 
 
 ### Personas
