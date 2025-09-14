@@ -52,7 +52,7 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
    <img width="1145" height="620" alt="image" src="https://github.com/user-attachments/assets/c42d751a-f861-4db9-8942-f67910a6d55e" />
 
  - Site performático, com interface fluida e dinâmica.
- - Um usuário leigo estará ciente de todos os serviços oferecidos pela plataforma, pois estas informação são disponibilizadas com clareza.
+ - Um usuário leigo estará ciente de todos os serviços oferecidos pela plataforma, pois estas informaçsão disponibilizadas com clareza.
 
    <img width="1147" height="674" alt="image" src="https://github.com/user-attachments/assets/b00d491e-01b2-4201-a58e-b8fbecf84478" />
 
@@ -137,7 +137,12 @@ O serviço irá armazenar informações relacionadas aos dispositivos IoT das pe
 ## Contexto de uso
 
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
+     - Redes domésticas;
+     - Redes empresariais;
+     - Redes industriais;
 - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
+     - Familiares de classe baixa/média com formação no ensino superior/médio;
+     - Assalariados de classe média, empresários de classe alta 
 - Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
 - O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
 
