@@ -136,23 +136,55 @@ O serviço irá armazenar informações relacionadas aos dispositivos IoT das pe
 
 ## Contexto de uso
 
-- Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
-     - Redes domésticas;
-     - Redes empresariais;
-     - Redes industriais;
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
+- Ambientes onde o produto será utilizado:
+     - Ambiente domiciliar entre familiares ou pessoas sozinhas;
+     - Ambiente empresarial que utiliza IoT de alguma forma;
+     - Ambiente industrial;
+- Contexto(s) sociais, econômicos e culturais dos ambientes:
      - Familiares de classe baixa/média com formação no ensino superior/médio;
-     - Assalariados de classe média, empresários de classe alta 
-- Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
-- O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
+     - Colaboradores em empresas de classe média/alta com formação em ensino superior;
+     - Operadores de maquinário industrial de classe baixa/média com formação em superior/médio;
+- Informações que o produto deve guardar antes de iniciar a interação:
+     - Todos os dispositivos IoT da rede;
+- Rotina comum dos ambientes em que o produto será utilizado:
+     - Em redes domésticas, os familiares estarão usando os dispositivos naturalmente;
+     - Em redes empresariais, será horário comercial e os colaboradores estarão trabalhando em seus dispositivos;
+     - Em redes Industriais, os operários estarão operando o maquinário;
 
 ## Jornada do usuário
 
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
+- Narrativa do serviço/produto com o usuário
+     - O usuário utiliza o IDS em um ambiente com dispositivos IoT (doméstico, empresarial ou industrial);
+     - O sistema realiza a varredura e monitora continuamente os dispositivos conectados à rede;
+     - Ao longo da interação, o usuário recebe alertas de anomalias, tentativas de acesso suspeitas ou falhas de segurança;
+     - O serviço/produto auxilia na tomada de decisão, permitindo que o usuário atue preventivamente ou reaja a incidentes;
+- Passo a passo da interação
+  - Início da tarefa:
+     - O usuário instala e configura o IDS na rede IoT.
+     - O sistema identifica automaticamente todos os dispositivos conectados.
+     - O IDS inicia o monitoramento contínuo em segundo plano.
+  - Desenvolvimento da tarefa:
+     - O sistema analisa o tráfego de rede e o comportamento dos dispositivos IoT.
+     - Caso detecte anomalias (ex.: tráfego suspeito, acessos não autorizados, falhas de configuração), o IDS gera um alerta.
+     - O usuário recebe notificações claras (em dashboard ou aplicativo) sobre o problema identificado.
+     - O sistema sugere possíveis ações (ex.: bloquear IP suspeito, reiniciar dispositivo, atualizar firmware).
+  - Término da tarefa:
+     - O usuário valida as ações realizadas pelo IDS ou toma decisões adicionais.
+     - O sistema registra os incidentes e armazena logs para auditoria futura.
+     - O processo se encerra quando o ambiente volta ao funcionamento normal e seguro, mas o IDS permanece ativo, pronto para detectar novas ameaças.
+
+<!--
+## Jornada do usuário
+
+- Criar uma narrativa para o seu serviço ou poduto com o usuário.
+     - O usuário utiliza o IDS em um ambiente com dispositivos IoT (doméstico, empresarial ou industrial);
+     - O sistema realiza a varredura e monitora continuamente os dispositivos conectados à rede;
+     - Ao longo da interação, o usuário recebe alertas de anomalias, tentativas de acesso suspeitas ou falhas de segurança;
+     - O serviço/produto auxilia na tomada de decisão, permitindo que o usuário atue preventivamente ou reaja a incidentes;
 - Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
   - Descreva o que acontece ou pode acontecer passo a passo
   - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
-
+-->
 
 <!--
 ## Análise de concorrência
