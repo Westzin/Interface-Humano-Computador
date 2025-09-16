@@ -77,7 +77,7 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 | Dispositivos minimamente configurados? | Sim |
 | Dispositivos de qualidade? | Não |
 
-- Persona Secundaria (Autor: Angelo Gabriel Vasconcelos Baptista):
+- Persona Primária 2 (Autor: Angelo Gabriel Vasconcelos Baptista):
 
  | Categoria      | Dados |
 | ----------- | ----------- |
@@ -90,21 +90,6 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 | Tempo utilizando IoTs por dia | 16h |
 | Numero de dispositivos | 34 |
 | Dispositivos minimamente configurados? | Sim |
-| Dispositivos de qualidade? | Sim |
-
-- Persona Extrema (Autor: Rafael Augusto Feliciano Assembleia):
-
-| Categoria      | Dados |
-| ----------- | ----------- |
-| Nome        | Severino       |
-| Nascido em  | 1970        |
-| Trabalho  | Programador |
-| Hobbies  | Programação em assembly 6502 e pescaria |
-| Sentimentos  | Tranquilo |
-| Midia  | Leitura de livros e jornais |
-| Tempo utilizando IoTs por dia | 20m |
-| Número de dispositivos | 1 |
-| Dispositivos minimamente configurados? | Não |
 | Dispositivos de qualidade? | Sim |
 
 O serviço irá armazenar informações relacionadas aos dispositivos IoT das personas e seu ano de nascimento.
@@ -132,6 +117,26 @@ O serviço irá armazenar informações relacionadas aos dispositivos IoT das pe
      3. Sente que sua rede privada será invadida.
   - Ganhos:
      1. Tranquilidade de monitorar sua rede.
+     2. Possibilidade de utilizar dispositivos IoTs baratos sem se preocupar com brechas na segurança do mesmo.
+
+### Persona Primária 2
+
+  - O que o usuário vê:
+     1. Amigos empresários.
+     2. Dispositivos IoT servindo de estrutura essencial para sua empresa.
+  - O que o usuário ouve:
+     1. Assiste o jornal nacional e escuta radio antena 1.
+     2. Muitas empresas colapsam devido a vazamentos de dados entre seus funcionários.
+  - O que o usuário diz e faz:
+     1. Valoriza seu tempo livre.
+  - O que o usuário pensa e sente:
+     1. Precisa se conectar mais com a tecnologia e abandonar alternativas analógicas.
+     2. Dispositivos IoT são complexos.
+  - Dores:
+     1. Se sente muito exausto mentalmente em seu tempo livre.
+     2. Sente que seu cargo de CTO esta sendo ameaçado.
+  - Ganhos:
+     1. Tranquilidade em saber que sua rede será protegida.
      2. Possibilidade de utilizar dispositivos IoTs baratos sem se preocupar com brechas na segurança do mesmo.
 
 ## Contexto de uso
