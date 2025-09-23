@@ -202,6 +202,29 @@ O serviço irá armazenar informações relacionadas aos dispositivos IoT das pe
   - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
  -->
+
+# Cenário de Análise/Problema
+
+> **_NOTE:_**: A equipe deve pensar em cenários existentes na atualidade (que causam problemas para os usuários) e que a interface prevista ajudará a resolver o problema. Cenário de Análise/Problema é uma história triste. Não descreve a solução. Descreve somente o problema.
+
+1. Cenário de Análise/Problema
+
+Usuários que compram dispositivos IoT de má qualidade (porém de baixo custo), como uma câmera de segurança, devido a má prototipagem do dispositivo seu endereço IP está disponivel publicamente em sites como [Shodan](https://www.shodan.io/), onde pessoas maliciosas do mundo inteiro podem invadir e escanear por portas críticas abertas, tendo assim acesso a rede doméstica do usuário do dispositivo.
+   
+2. Questões de Refinamento
+
+1. O que é um invasor?
+2. Por que analisar açoes de usuários dentro da rede?
+3. Como invasores acessam a rede?
+4. Por que usuários compram dispositivos de má qualidade?
+5. Quem pode invadir a rede?
+6. Qual é o principal alvo dos invasores?
+7. Quais dispositivos IoT críticos são alvos de invasores?
+
+3. Refinamento do Cenário Análise/Problema
+
+Usuários que compram dispositivos IoT de má qualidade[6] (porém de baixo custo)[4], como uma câmera de segurança[7], devido a má prototipagem do dispositivo seu endereço IP está disponivel publicamente em sites como [Shodan](https://www.shodan.io/) [3], onde pessoas maliciosas[1] do mundo inteiro[5] podem invadir e escanear por portas críticas abertas[2], tendo assim acesso a rede doméstica do usuário do dispositivo.
+
  
 ## Coleta de dados
 
