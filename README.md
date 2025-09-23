@@ -66,6 +66,7 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 
 | Categoria      | Dados |
 | ----------- | ----------- |
+| Foto |  ![Alt text](https://github.com/Westzin/Interface-Humano-Computador/blob/4ae46275f4e6a7f71d26fcc7e95ff17f671fd039/persona1.png) |
 | Nome        | Eduardo       |
 | Nascido em  | 2000        |
 | Trabalho  | Entregador        |
@@ -81,6 +82,7 @@ O Sistema de Detecção e Intrusão (IDS) funcionaria o tempo todo nas redes de 
 
  | Categoria      | Dados |
 | ----------- | ----------- |
+| Foto |  ![Alt text](https://github.com/Westzin/Interface-Humano-Computador/blob/4ae46275f4e6a7f71d26fcc7e95ff17f671fd039/persona2.png) |
 | Nome        | Nicholas       |
 | Nascido em  | 1990        |
 | Trabalho  | CTO de multinacional        |
