@@ -225,6 +225,15 @@ Usuários que compram dispositivos IoT de má qualidade (porém de baixo custo),
 
 Usuários que compram dispositivos IoT de má qualidade[6] (porém de baixo custo)[4], como uma câmera de segurança[7], devido a má prototipagem do dispositivo seu endereço IP está disponivel publicamente em sites como [Shodan](https://www.shodan.io/) [3], onde pessoas maliciosas[1] do mundo inteiro[5] podem invadir e escanear por portas críticas abertas[2], tendo assim acesso a rede doméstica do usuário do dispositivo.
 
+# Análise de Tarefas
+
+> **_NOTE:_**: A equipe deve descrever as funcionalidades mais importantes da interface/produto. A equipe deve modelar pelo menos 1 HTA, 1 GOMS e 1 CTT (de pelo menos 4 funcionalidades diferentes). Cada diagrama deve ter um texto explicando a funcionalidade.
+
+1. HTA
+2. GOMS
+3. CTT
+
+# Prototipacao
  
 ## Coleta de dados
 
