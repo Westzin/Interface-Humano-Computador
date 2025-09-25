@@ -193,37 +193,42 @@ O serviço irá armazenar informações relacionadas aos dispositivos IoT das pe
   - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
 -->
 
-<!--
-## Análise de concorrência
 
-- Pesquise serviços ou podutos existentes atualmente que possam realizar o objetivo deste projeto.
-- Selecione pelo menos 3 serviços ou podutos diferentes.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
- -->
 
 # Cenário de Análise/Problema
 
 > **_NOTE:_**: A equipe deve pensar em cenários existentes na atualidade (que causam problemas para os usuários) e que a interface prevista ajudará a resolver o problema. Cenário de Análise/Problema é uma história triste. Não descreve a solução. Descreve somente o problema.
+<!--
+Usuários que compram dispositivos IoT de má qualidade (porém de baixo custo), como uma câmera de segurança, devido a má prototipagem do dispositivo seu endereço IP está disponivel publicamente em sites como [Shodan](https://www.shodan.io/), onde pessoas maliciosas do mundo inteiro podem invadir e escanear por portas críticas abertas, tendo assim acesso a rede doméstica do usuário do dispositivo.
+-->
 
 - Cenário de Análise/Problema
+  - Quando Eduardo não está trabalhando como entregador, costuma investir tempo em seus hobbies de tecnologia. Desta vez, Eduardo decidiu comprar uma câmera de segurança com conexão com a Internet, o que permite consultar as suas gravações através de um dispositivo móvel. No entanto, embora essa câmera tenha sido extremamente barata, possui qualidade duvidosa, e suas barreiras de segurança podem ser facilmente burladas, permitindo que invasores acessem suas gravações pessoais. Como Eduardo é bastante esperto, decide assinar um plano de um software que detecta intrusos em aparelhos IoT. Através da interface gráfica do aplicativo IDS, Eduardo consegue mapear todos os aparelhos IoT que estão conectados no Wi-Fi de sua casa. Um dia, Eduardo recebeu uma notificação de emergência de seu aplicativo, alertando que havia algum intruso tentando acessar a sua câmera. Ele decidiu bloquear o acesso do endereço de IP do invasor, e logo em seguida, foi analisar o histórico daquele usuário suspeito, descobrindo que ele havia tentado se conectar àquele dispositivo mais de 5 vezes.
+  - Quando Nicholas não está ocupado coordenando as equipes de desenvolvimento e infraestrutura da empresa, ele costuma testar novas soluções tecnológicas diretamente no escritório. Recentemente, a empresa adquiriu uma série de smart locks (fechaduras inteligentes) para controlar o acesso às salas de reunião, substituindo os crachás tradicionais. Esses dispositivos permitem monitorar e liberar acessos por meio de um painel centralizado conectado à rede corporativa.
+No entanto, embora os smart locks tenham trazido mais praticidade, Nicholas sabe que qualquer dispositivo IoT mal configurado pode representar uma porta de entrada para invasores. Por isso, ele implantou um sistema IDS corporativo especializado em monitorar dispositivos IoT, integrado à infraestrutura de segurança da empresa.
+Certa manhã, enquanto revisava relatórios no dashboard, Nicholas recebeu uma notificação crítica do IDS: um endereço IP externo tentava realizar conexões suspeitas com um dos smart locks do andar administrativo. Imediatamente, Nicholas ordenou o bloqueio do tráfego daquela origem e acionou a equipe de segurança para verificar logs detalhados.
+Na análise posterior, descobriram que o invasor havia tentado forçar o acesso ao dispositivo mais de 10 vezes em poucos minutos, explorando vulnerabilidades conhecidas em firmware desatualizado. Graças ao IDS, a ameaça foi identificada antes que conseguisse comprometer a rede interna. Nicholas então estabeleceu uma nova política de atualização automática e monitoramento contínuo.
 
-Usuários que compram dispositivos IoT de má qualidade (porém de baixo custo), como uma câmera de segurança, devido a má prototipagem do dispositivo seu endereço IP está disponivel publicamente em sites como [Shodan](https://www.shodan.io/), onde pessoas maliciosas do mundo inteiro podem invadir e escanear por portas críticas abertas, tendo assim acesso a rede doméstica do usuário do dispositivo.
-   
 - Questões de Refinamento
-
-1. O que é um invasor?
-2. Por que analisar açoes de usuários dentro da rede?
-3. Como invasores acessam a rede?
-4. Por que usuários compram dispositivos de má qualidade?
-5. Quem pode invadir a rede?
-6. Qual é o principal alvo dos invasores?
-7. Quais dispositivos IoT críticos são alvos de invasores?
+1. O que é um dispositivo IoT?
+2. Qual dispositivo IoT foi utilizado?
+3. Para que serve o sistema IDS?
+4. Como o IDS notifica o usuário sobre possíveis ameaças?
+5. Que ação imediata pode ser tomada ao detectar um invasor?
+6. Qual risco está associado ao uso de dispositivos IoT?
+7. Como o IDS contribuiu para impedir um ataque?
+8. Que tipo de vulnerabilidade o invasor tentou explorar?
+9. Quais informações o usuário pode obter ao analisar os registros de acesso?
+10. Quais medidas de prevenção foram adotadas após o incidente?
 
 - Refinamento do Cenário Análise/Problema
-
-Usuários que compram dispositivos IoT de má qualidade[6] (porém de baixo custo)[4], como uma câmera de segurança[7], devido a má prototipagem do dispositivo seu endereço IP está disponivel publicamente em sites como [Shodan](https://www.shodan.io/) [3], onde pessoas maliciosas[1] do mundo inteiro[5] podem invadir e escanear por portas críticas abertas[2], tendo assim acesso a rede doméstica do usuário do dispositivo.
+  - Quando Eduardo não está trabalhando como entregador, costuma investir tempo em seus hobbies de tecnologia. Desta vez, Eduardo decidiu comprar uma câmera de segurança com conexão com a Internet [1][2], o que permite consultar as suas gravações através de um dispositivo móvel. No entanto, embora essa câmera tenha sido extremamente barata, possui qualidade duvidosa, e suas barreiras de segurança podem ser facilmente burladas, permitindo que invasores acessem gravações pessoais do Eduardo [6].
+Como o Eduardo é bastante esperto, decide assinar um plano de um software que detecta intrusos em aparelhos IoT (IDS) [3]. Através da interface gráfica do aplicativo IDS, Eduardo consegue mapear todos os aparelhos IoT que estão conectados no Wi-Fi de sua casa.
+Um dia, Eduardo recebeu uma notificação de emergência [4] de seu aplicativo, alertando que havia algum intruso tentando acessar a sua câmera. Ele decidiu bloquear o acesso do endereço de IP do invasor [5], e logo em seguida, foi analisar o histórico daquele usuário suspeito, descobrindo que ele havia tentado se conectar àquele dispositivo mais de 5 vezes [9].
+  - Quando Nicholas não está ocupado coordenando as equipes de desenvolvimento e infraestrutura da empresa, ele costuma testar novas soluções tecnológicas diretamente no escritório. Recentemente, a empresa adquiriu uma série de smart locks (fechaduras inteligentes) [1][2] para controlar o acesso às salas de reunião, substituindo os crachás tradicionais. Esses dispositivos permitem monitorar e liberar acessos por meio de um painel centralizado conectado à rede corporativa.
+No entanto, embora os smart locks tenham trazido mais praticidade, Nicholas sabe que qualquer dispositivo IoT mal configurado pode representar uma porta de entrada para invasores [6]. Por isso, ele implantou um sistema IDS corporativo [3] especializado em monitorar dispositivos IoT, integrado à infraestrutura de segurança da empresa.
+Certa manhã, enquanto revisava relatórios no dashboard, Nicholas recebeu uma notificação crítica [4] do IDS: um endereço IP externo tentava realizar conexões suspeitas com um dos smart locks do andar administrativo. Na análise posterior, descobriram que o invasor tentou explorar vulnerabilidades conhecidas em firmware desatualizado [8].
+Graças ao IDS, a ameaça foi identificada antes que conseguisse comprometer a rede interna [7]. Nicholas então estabeleceu uma nova política de atualização automática e monitoramento contínuo [10].
 
 # Análise de Tarefas
 
