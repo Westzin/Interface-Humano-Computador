@@ -239,6 +239,10 @@ Graças ao IDS, a ameaça foi identificada antes que conseguisse comprometer a r
 3. CTT
 
 # Prototipacao
+
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/215e4612fce47738f6ff9c6219fbc4cb48d33ba8/PROTOTIPO-HOME.png)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/215e4612fce47738f6ff9c6219fbc4cb48d33ba8/PROTOTIPO-RELATORIO.png)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/215e4612fce47738f6ff9c6219fbc4cb48d33ba8/PROTOTIPO-DETALHES-DIPOSITIVO.png)
  
 ## Coleta de dados
 
