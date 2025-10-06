@@ -234,10 +234,97 @@ Graças ao IDS, a ameaça foi identificada antes que conseguisse comprometer a r
 
 > **_NOTE:_**: A equipe deve descrever as funcionalidades mais importantes da interface/produto. A equipe deve modelar pelo menos 1 HTA, 1 GOMS e 1 CTT (de pelo menos 4 funcionalidades diferentes). Cada diagrama deve ter um texto explicando a funcionalidade.
 
-1. HTA
-2. GOMS
-3. CTT
+## Tarefa: Analisar Dispositivo da Rede
 
+### 0. Explicação da funcionalidade
+- O usuário seleciona um dispositivo (IP/PC/hostname) para inspeção.
+- O sistema **carrega traços** (PCAP/logs) ou inicia **captura ao vivo**, usando janela temporal definida.
+- Os dados são **pré-processados e transformados em *features*** (estatísticas de fluxo, portas, bytes, flags etc.), passando por **seleção de atributos** via machine learning.
+- Aplica-se **modelo bayesiano** e **rede neural profunda**, podendo combinar resultados por *ensemble*.
+- O resultado é exibido como **rótulo e score** (Normal/Intruso), com **explicações** (top features) e opção de **relatório em PDF**.
+
+### 1. HTA
+
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Diagramas/HTA/HTA_T1_OF.png)
+
+### 2. GOMS
+
+#### GOAL 0: Analisar Dispositivo da Rede
+- **GOAL 1:** Selecionar dispositivo  
+  - OP 1.1: Abrir lista/consulta por IP, PC ou hostname  
+  - OP 1.2: Aplicar filtro e confirmar seleção  
+
+- **GOAL 2:** Obter traços de rede  
+  - OP 2.1: Carregar PCAP/Logs OU iniciar captura  
+  - OP 2.2: Definir janela temporal e fonte  
+
+- **GOAL 3:** Pré-processar e extrair features  
+  - OP 3.1: Limpar/normalizar dados  
+  - OP 3.2: Extrair métricas (flows, portas, bytes, taxa, flags)  
+  - OP 3.3: Selecionar *features* via filtros de relevância (ML)  
+
+- **GOAL 4:** Classificar com modelos  
+  - METHOD 4.A: Classificar com modelo bayesiano  
+    - OP 4.A.1: Executar inferência bayesiana  
+    - OP 4.A.2: Capturar probabilidade de intrusão  
+  - METHOD 4.B: Classificar com rede neural  
+    - OP 4.B.1: Executar predição DNN  
+    - OP 4.B.2: Capturar score/softmax  
+  - **SEL.RULE:** Usar ambos se disponível; combinar por ensemble  
+
+- **GOAL 5:** Visualizar resultado  
+  - METHOD 5.A: Visão simples (UI)  
+    - OP 5.A.1: Ler rótulo/score (Normal vs Intruso)  
+  - METHOD 5.B: Relatório detalhado (PDF)  
+    - OP 5.B.1: Abrir relatório com top features, timeline e amostras  
+    - OP 5.B.2: Ver recomendações de ação  
+
+### 3. CTT
+
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Diagramas/CTT/LegendaCTT.png)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Diagramas/CTT/CTT_T1_OF.png)
+
+## Tarefa: Banir Dispositivo da Rede
+
+### 0. Explicação da funcionalidade
+- O usuário escolhe o **alvo** (IP/PC), normalmente a partir do resultado da análise.
+- Define a **política de bloqueio** (temporário × permanente) e o **escopo** (firewall, VLAN, AP Wi-Fi/SDN).
+- O sistema **aplica a regra** (ex.: `iptables`, firewall central, controlador SDN/AP) e **propaga** para a rede.
+- A interface permite **verificação** (teste de conectividade) e **registro de auditoria** (quem/quando/motivo), com opção de **desfazer**.
+
+### 1. HTA
+
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Diagramas/HTA/HTA_T2_OF_ATT.png)
+
+### 2. GOMS
+
+#### GOAL 0: Banir Dispositivo da Rede
+- **GOAL 1:** Escolher alvo do bloqueio  
+  - OP 1.1: Selecionar IP/PC a partir da análise  
+  - OP 1.2: Validar identidade do dispositivo  
+
+- **GOAL 2:** Definir política de bloqueio  
+  - METHOD 2.A: Bloqueio temporário  
+    - OP 2.A.1: Selecionar duração (ex.: 1h, 24h)  
+  - METHOD 2.B: Bloqueio permanente  
+    - OP 2.B.1: Marcar como permanente e exigir justificativa  
+  - OP 2.3: Definir escopo (firewall, VLAN, AP Wi-Fi)  
+
+- **GOAL 3:** Executar bloqueio  
+  - OP 3.1: Enviar regra ao firewall/SDN  
+  - OP 3.2: Verificar retorno de sucesso  
+  - OP 3.3: Propagar para nós relevantes  
+
+- **GOAL 4:** Verificar e registrar  
+  - OP 4.1: Testar conectividade do alvo (esperado: bloqueado)  
+  - OP 4.2: Registrar log (quem, quando, motivo, evidências)  
+  - OP 4.3: Disponibilizar opção de desfazer  
+
+### 3. CTT
+
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Diagramas/CTT/LegendaCTT.png)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Diagramas/CTT/CTT_T2_OF.png)
+  
 # Prototipacao
 
 ![](https://github.com/Westzin/Interface-Humano-Computador/blob/215e4612fce47738f6ff9c6219fbc4cb48d33ba8/PROTOTIPO-HOME.png)
