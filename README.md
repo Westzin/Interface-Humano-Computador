@@ -335,12 +335,53 @@ Graças ao IDS, a ameaça foi identificada antes que conseguisse comprometer a r
 
 1. Identificação de Necessidades dos Usuários e Requisitos de IHC:
 
- - Que dados coletar?
- - De quem coletar?
+ ### Que dados coletar?
+
+#### Usuário e hosts em rede
+
+1. Endereço IP e MAC.
+2. Nome de dispositivo.
+3. Data e hora de acesso a rede.
+4. Idade e geolocalização.
+
+#### Relação com tecnologia
+
+1. Utilizar desktops ou smartphones.
+2. Estar confortavel com o uso de softwares como antivirus
+
+#### Conhecimento do domínio
+
+1. Nivel de dominio basico de computadores.
+2. Conhecimento basico/nenhum em redes de computadores.
+
+#### Tarefas
+
+1. Objetivos: Uso do sistema para banir hosts supeitos de sua rede.
+2. Tarefas: Todas as tarefas de usuario não precisar ser apoiadas, todas podem e devem ser realizadas individualmente. Assim consideramos a tarefa de banir um host de sua rede, como primaria.
+3. Gravidade dos erros: Caso um usuario realize um banimento por engano, uma serie de processos devera ser realizada para reverter este erro.
+
+#### Motivações e valores
+
+1. Atitudes e valores: O usuario prefere um poroduto que seja intuitivo e abstraia os procedimentos que ele esta executando, uma vez que nao possui dominio avancado em redes de computadores.
+
+ ### De quem coletar?
+
+ #### Quem utilizará o sistema
+
+ 1. Entusiastas que nao possuem conhecimento tecnico, porem querem sua rede protegida.
+ 2. Tecnicos em rededs de computadores, que nao precisam de abstracoes, porem querem maior dominio de sua rede.
+
+ #### Quem será afetado por ele
+
+ 1. Usuarios que buscam uma rede sem invasores.
+
+  #### Quem é responsável por decidir quais objetivos o sistema deve apoiar e quais funcionalidades ele deve ter
+
+  1. Os desenvolvedores.
 
 2. Aspectos Éticos
    
- - Seu projeto deverá considerar aspectos éticos? Justifique usando os conceitos da aula.
+Nosso projeto nao ira realizar a coleta de aspectos eticos, uma vez que nao armazenaremos imagens, 
 
 3.​ Ferramentas de Coleta de Dados (três técnicas diferentes)
 
