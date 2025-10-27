@@ -386,17 +386,17 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
 
 3.​ Ferramentas de Coleta de Dados (três técnicas diferentes)
 
-Scripts
-Aplicação: Assim que o programa for configurado e introduzido a rede, um script utilizando a biblioteca `socket` para adquirirmos o endereço IP e `getmac` para endereços MAC.
-Instrumento: Script python
+- Scripts
+- Aplicação: Assim que o programa for configurado e introduzido a rede, um script utilizando a biblioteca `socket` para adquirirmos o endereço IP e `getmac` para endereços MAC.
+- Instrumento: Script python
 
-Formulário:
-Aplicação: Antes de executar o programa, será realizado um formulario com perguntas basicas, como: "Quantos dispositivos voce conecta em sua rede geralmente?", para identificar-mos o nivel de dominancia do usuário sobre a propria rede. 
-Instrumento: Formulário web React
+- Formulário:
+- Aplicação: Antes de executar o programa, será realizado um formulario com perguntas basicas, como: "Quantos dispositivos voce conecta em sua rede geralmente?", para identificar-mos o nivel de dominancia do usuário sobre a propria rede. 
+- Instrumento: Formulário web React
 
-Entrevista Semiestruturada Pós-Uso
-Aplicação: Logo após o teste da aplicação, o pesquisador faz perguntas guiadas por um roteiro curto para entender como o usuário se sentiu
-Instrumento: Roteiro estruturado pelo Google Forms.
+- Entrevista Semiestruturada Pós-Uso
+- Aplicação: Logo após o teste da aplicação, o pesquisador faz perguntas guiadas por um roteiro curto para entender como o usuário se sentiu
+- Instrumento: Roteiro estruturado pelo Google Forms.
 
 ## Ciclo de vida da engenharia de usabilidade
 
@@ -406,10 +406,8 @@ Instrumento: Roteiro estruturado pelo Google Forms.
 | :---- | :---- |
 | Descrição do Software | Um sistema que busca por intrusos em uma rede privada domestica, baseado no comportamento do usuario em rede |
 | Descrição do Hardware | Computadores de mesa com conexao cabeada a internet, com sistema operacional Windows 7/8/10/11  |
-| LISTA DE Capacidades da Plataforma (com explicação) | - Captação em tempo real: Pesquisa e analise de comportamento de dispositivos e automaticamente realizada. 
-- Processamento em nuvem: Dados sao processados em um super servidor para que nao seja dependente do hardware local do usuario. |
-| LISTA DE Restrições da Plataforma (com explicação) | - Conexao estavel com a rede: Para o pleno funcionamento do servico, e necessario uma boa conexao com a internet.
-- Servidor sobrecarregado: Muitos algoritimos sao processados pelo lado do servidor, assim causando um gargalo de alguns segundos. |
+| LISTA DE Capacidades da Plataforma (com explicação) | Captação em tempo real: Pesquisa e analise de comportamento de dispositivos e automaticamente realizada. Processamento em nuvem: Dados sao processados em um super servidor para que nao seja dependente do hardware local do usuario. |
+| LISTA DE Restrições da Plataforma (com explicação) | Conexao estavel com a rede: Para o pleno funcionamento do servico, e necessario uma boa conexao com a internet. Servidor sobrecarregado: Muitos algoritimos sao processados pelo lado do servidor, assim causando um gargalo de alguns segundos. |
 
 2. **Princípios Gerais do Projeto (INCREMENTAR TABELA)**     
 
