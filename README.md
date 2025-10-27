@@ -386,15 +386,15 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
 
 3.​ Ferramentas de Coleta de Dados (três técnicas diferentes)
 
-- Scripts
+#### Scripts
 - Aplicação: Assim que o programa for configurado e introduzido a rede, um script utilizando a biblioteca `socket` para adquirirmos o endereço IP e `getmac` para endereços MAC.
 - Instrumento: Script python
 
-- Formulário:
+#### Formulário:
 - Aplicação: Antes de executar o programa, será realizado um formulario com perguntas basicas, como: "Quantos dispositivos voce conecta em sua rede geralmente?", para identificar-mos o nivel de dominancia do usuário sobre a propria rede. 
 - Instrumento: Formulário web React
 
-- Entrevista Semiestruturada Pós-Uso
+#### Entrevista Semiestruturada Pós-Uso
 - Aplicação: Logo após o teste da aplicação, o pesquisador faz perguntas guiadas por um roteiro curto para entender como o usuário se sentiu
 - Instrumento: Roteiro estruturado pelo Google Forms.
 
@@ -404,7 +404,7 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
    
 | Característica | Descrição |
 | :---- | :---- |
-| Descrição do Software | Um sistema que busca por intrusos em uma rede privada domestica, baseado no comportamento do usuario em rede |
+| Descrição do Software | Aplicacao de analise de rede local (LAN) |
 | Descrição do Hardware | Computadores de mesa com conexao cabeada a internet, com sistema operacional Windows 7/8/10/11  |
 | LISTA DE Capacidades da Plataforma (com explicação) | Captação em tempo real: Pesquisa e analise de comportamento de dispositivos e automaticamente realizada. Processamento em nuvem: Dados sao processados em um super servidor para que nao seja dependente do hardware local do usuario. |
 | LISTA DE Restrições da Plataforma (com explicação) | Conexao estavel com a rede: Para o pleno funcionamento do servico, e necessario uma boa conexao com a internet. Servidor sobrecarregado: Muitos algoritimos sao processados pelo lado do servidor, assim causando um gargalo de alguns segundos. |
@@ -413,7 +413,7 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
 
 | Nome | Descrição | Link |
 | :---- | :---- | :---- |
-| Descrição do Contexto | .  |  |
+| Descrição do Contexto | Um sistema que busca por intrusos (hackers) em uma rede privada domestica, baseado no comportamento do usuario em rede, utilizando de algoritimos bio-inspirados para uma analise precisa  |  |
 | Lei Geral de Proteção de Dados (LGPD) \- Lei n.º 13.709/2018 | A LGPD é a legislação brasileira que regulamenta o tratamento de dados pessoais no Brasil. É importante para o projeto porque estabelece regras sobre como os dados dos usuários devem ser coletados, armazenados, processados e protegidos, garantindo sua privacidade e segurança. | [https://www.planalto.gov.br/ccivil\_03/\_ato2015-2018/2018/lei/l13709.htm](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) |
 | Lei n.º 10.098/2000 \- Lei da Acessibilidade |  Esta lei brasileira estabelece normas gerais e critérios básicos para a promoção da acessibilidade das pessoas com deficiência ou com mobilidade reduzida. É importante para o projeto porque define diretrizes para tornar produtos e serviços, incluindo interfaces de usuário, acessíveis a todos os usuários, independentemente de suas habilidades físicas ou cognitivas. | [https://www.planalto.gov.br/ccivil\_03/leis/l10098.htm](https://www.planalto.gov.br/ccivil_03/leis/l10098.htm) |
 | ABNT NBR ISO 9241 Ergonomia da interação humano-sistema |  Esta série de normas brasileiras, baseadas nas normas ISO 9241, fornece diretrizes e orientações para o design centrado no usuário de sistemas interativos, incluindo a concepção de interfaces de usuário. A parte 210 aborda o processo de design centrado no humano, enquanto a parte 11 fornece orientações específicas sobre usabilidade. Essas normas são importantes para o projeto porque estabelecem princípios e métodos para garantir que a interface do usuário atenda às necessidades e expectativas dos usuários. | [https://www.inf.ufsc.br/\~edla.ramos/ine5624/\_Walter/Normas/Parte%2011/iso9241-11F2.pdf](https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf) |
