@@ -427,6 +427,19 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
     - Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
 - Discuta o papel das expectativas do usuário no projeto deste serviço ou poduto. Qual a importância e pontos a serem considerados se você quiser vender esse serviço ou poduto?
 
+## Planejamento da Avaliação
+
+### 1. Planejamento de Usabilidade utilizando método DECIDE
+
+|   |   |
+|---|---|
+| **D** | Encontrar falhas na interface e fazer com que o usuário atinja os seus objetivos no sistema da forma mais eficiente e intuitiva possível. |
+| **E** | Enzo |
+| **C** | Enzo |
+| **I** | Enzo |
+| **D** | Enzo |
+| **E** | Enzo |
+
 ### Prototipação em baixo nível (papel)
 #### Avaliação heurística
 
