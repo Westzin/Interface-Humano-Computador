@@ -440,6 +440,37 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
 | **D** | Garantir consentimento informado dos participantes. Manter anonimato e confidencialidade dos dados. Evitar exposição de informações reais de rede ou dispositivos IoT. Informar aos participantes que os testes não envolvem riscos reais de intrusão. |
 | **E** | Após a etapa de coleta, os resultados da Avaliação Heurística e dos Testes com Usuários serão reunidos em um relatório integrado. Os achados serão organizados conforme seu nível de gravidade, frequência de ocorrência e impacto na experiência do usuário, de modo a priorizar as falhas mais críticas. As métricas quantitativas, como tempo de execução, taxa de sucesso e número de erros, serão analisadas em conjunto com as evidências qualitativas, como comentários, percepções e dificuldades relatadas. O documento final apresentará os principais problemas de interação, suas causas prováveis, as heurísticas violadas e recomendações práticas de melhoria, servindo como base para as próximas versões do sistema. |
 
+### 2. Lista de instrumentos
+i) 
+Termo de consentimento <br>
+ii) Questionários  <br>
+iii) Tabela de Observação <br> 
+iv) Formulário de avaliação Heuristica. <br>
+
+## Avaliação de IHC através de Inspeção Heurística
+
+### 10 Heurísticas de Nielsen
+| 1. | Visibilidade do status do sistema |
+|----|-----------------------------------|
+| oi | legal |
+| 2. | Compatibilidade entre sistema e mundo real |
+| oi | legal |
+| 3. | Controle e liberdade para o usuário |
+| oi | legal |
+| 4. | Consistência e padrões |
+| oi | legal |
+| 5. | Prevenção de erros |
+| oi | legal |
+| 6. | Reconhecimento em lugar de lembrança |
+| oi | legal |
+| 7. | Flexibilidade e eficiência de uso |
+| oi | legal |
+| 8. | Projeto minimalista e estético |
+| oi | legal |
+| 9. | Auxiliar os usuários a reconhecer, diagnosticar e recuperar erros |
+| oi | legal |
+| 10. | Ajuda e documentação |
+| oi | legal |
 
 ### Prototipação em baixo nível (papel)
 #### Avaliação heurística
