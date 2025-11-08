@@ -419,6 +419,10 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
 | ABNT NBR ISO 9241 Ergonomia da interação humano-sistema |  Esta série de normas brasileiras, baseadas nas normas ISO 9241, fornece diretrizes e orientações para o design centrado no usuário de sistemas interativos, incluindo a concepção de interfaces de usuário. A parte 210 aborda o processo de design centrado no humano, enquanto a parte 11 fornece orientações específicas sobre usabilidade. Essas normas são importantes para o projeto porque estabelecem princípios e métodos para garantir que a interface do usuário atenda às necessidades e expectativas dos usuários. | [https://www.inf.ufsc.br/\~edla.ramos/ine5624/\_Walter/Normas/Parte%2011/iso9241-11F2.pdf](https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf) |
 |  | . |  |
 
+## FIGMA
+[Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
+
+
 ## Modelo de tarefas
 
 ## Design
@@ -449,28 +453,63 @@ iv) Formulário de avaliação Heuristica. <br>
 
 ## Avaliação de IHC através de Inspeção Heurística
 
-### 10 Heurísticas de Nielsen
-| 1. | Visibilidade do status do sistema |
-|----|-----------------------------------|
-| oi | legal |
-| 2. | Compatibilidade entre sistema e mundo real |
-| oi | legal |
-| 3. | Controle e liberdade para o usuário |
-| oi | legal |
-| 4. | Consistência e padrões |
-| oi | legal |
-| 5. | Prevenção de erros |
-| oi | legal |
-| 6. | Reconhecimento em lugar de lembrança |
-| oi | legal |
-| 7. | Flexibilidade e eficiência de uso |
-| oi | legal |
-| 8. | Projeto minimalista e estético |
-| oi | legal |
-| 9. | Auxiliar os usuários a reconhecer, diagnosticar e recuperar erros |
-| oi | legal |
-| 10. | Ajuda e documentação |
-| oi | legal |
+### Avaliação de IHC através de Inspeção HEURÍSTICA
+**Tabela 1 - Conjunto de heurísticas de Nielsen (1994)**
+| Nº | Heurística | Descrição | Análise |
+|----|-------------|------------|----------|
+| 1 | **Visibilidade do status do sistema** | O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em um tempo razoável. | O sistema exibe todos os dispositivos conectados à rede e indica o nível de gravidade de seus comportamentos. Também fornece relatórios e histórico de atividades, o que garante boa visibilidade sobre o status geral. |
+| 2 | **Compatibilidade entre sistema e mundo real** | O sistema deve utilizar a linguagem do usuário, com palavras, frases e conceitos familiares, evitando jargões técnicos. As informações devem seguir uma ordem lógica e natural. | O sistema adota uma linguagem técnica adequada a profissionais de redes e cibersegurança, mas pode dificultar a compreensão por parte de usuários domésticos, que podem não estar familiarizados com os termos utilizados. |
+| 3 | **Controle e liberdade para o usuário** | Os usuários devem ter liberdade para desfazer ações ou sair de estados indesejados sem esforço, por meio de comandos como *undo* e *redo*. | O sistema não oferece suporte a *undo* ou *redo*, disponibilizando apenas mecanismos básicos de navegação entre páginas, o que limita a liberdade de correção de ações. |
+| 4 | **Consistência e padrões** | Os elementos da interface devem seguir convenções claras e consistentes, evitando que ações ou termos diferentes representem o mesmo conceito. | A interface mantém uma boa consistência visual e terminológica, sem apresentar ambiguidades entre componentes ou funcionalidades. |
+| 5 | **Prevenção de erros** | O sistema deve ser projetado para evitar que erros ocorram, reduzindo a frustração e o retrabalho do usuário. | O sistema não oferece suporte preventivo para erros de conexão dos dispositivos, o que pode comprometer a estabilidade da experiência de uso. |
+| 6 | **Reconhecimento em vez de lembrança** | As opções e elementos da interface devem ser visíveis e autoexplicativos, reduzindo a necessidade de o usuário memorizar informações. | Apesar de não haver instruções explícitas, a interface é simples, padronizada e intuitiva, o que facilita o uso mesmo sem documentação. |
+| 7 | **Flexibilidade e eficiência de uso** | O sistema deve ser eficiente para usuários iniciantes e experientes, permitindo adaptação a diferentes níveis de habilidade. | A presença de jargões técnicos reduz a acessibilidade e eficiência para usuários menos experientes, embora não afete significativamente os profissionais da área. |
+| 8 | **Projeto estético e minimalista** | A interface deve conter apenas informações relevantes, evitando elementos desnecessários que possam distrair o usuário. | O sistema adota um design minimalista e objetivo, apresentando apenas informações essenciais para o uso da aplicação. |
+| 9 | **Auxiliar no reconhecimento, diagnóstico e recuperação de erros** | As mensagens de erro devem ser claras, indicar precisamente o problema e sugerir uma solução compreensível. | O sistema não exibe mensagens de erro, o que dificulta a identificação e resolução de falhas pelo usuário. |
+| 10 | **Ajuda e documentação** | Mesmo que o sistema seja intuitivo, deve oferecer documentação e ajuda de fácil acesso, centradas nas tarefas do usuário. | A interface não possui documentação nem guias de uso, o que pode dificultar o aprendizado inicial e a resolução de dúvidas. |
+
+
+**Tabela 2 - Grau de severidade dos problemas de usabilidade**
+| Grau de severidade | Tipo          | Descrição                                         |
+|--------------------|----------------|---------------------------------------------------|
+| 0                  | Sem importância | Não afeta a operação da interface                |
+| 1                  | Cosmético       | Não há necessidade imediata de solução           |
+| 2                  | Simples         | Problema de baixa prioridade (pode ser reparado) |
+| 3                  | Grave           | Problema de alta prioridade (deve ser reparado)  |
+| 4                  | Catastrófico    | Muito grave, deve ser reparado de qualquer forma |
+
+**Sua tarefa é avaliar o sistema procurando possíveis problemas de usabilidade. Quando um problema qualquer for detectado, classifique-o em uma das dez heurísticas de Nielsen, anotando o problema na tabela correspondente e atribuindo o grau de severidade (0 até 4) para este problema (dado pela tabela 2) e recomece novamente até não encontrar mais problemas de usabilidade.**
+
+### Atividade
+| Nº | Heurística Violada | Local | Severidade | Justificativa | Solução Recomendada |
+|----|--------------------|-------|-------------|----------------|---------------------|
+| 1 | Compatibilidade entre sistema e mundo real | dados do dispositivo | 0 (Sem importância) | A interface só utiliza termos técnicos na página de especificações dos dispositivos e detalhes de conexão. | Nenhuma solução é necessária pois essa página só tem utilidade para usuários técnicos. |
+| 2 | Controle e liberdade para o usuário | Navegação entre telas | 3 (Grave) | O sistema não possui suporte para desfazer ou cancelar ações, limitando o controle do usuário em caso de erro. | Implementar funções de *undo* e *redo*. |
+| 3 | Prevenção de erros | Conexão de dispositivos | 3 (Grave) | Não há tratamento adequado para falhas de conexão de dispositivos, podendo gerar confusão ou interrupção na operação. | Adicionar verificações preventivas e mensagens claras para orientar o usuário quando ocorrerem falhas de conexão. |
+| 4 | Auxiliar no reconhecimento, diagnóstico e recuperação de erros | Mensagens de sistema | 4 (Catastrófico) | A interface não apresenta mensagens de erro compreensíveis, dificultando a identificação e correção de problemas. | Implementar mensagens de erro claras e descritivas, em linguagem natural, indicando a causa e o procedimento para correção. |
+| 5 | Ajuda e documentação | tela inicial | 2 (Simples) | O sistema não possui documentação ou guia de uso, o que pode prejudicar novos usuários. | Criar uma seção de ajuda acessível no próprio sistema, com instruções básicas, FAQs e tutoriais rápidos. |
+| 6 | Flexibilidade e eficiência de uso | Painel de controle | 1 (Cosmético) | A interface não oferece atalhos nem opções avançadas que agilizem o uso por usuários experientes. | Incluir atalhos de teclado ou personalização de comandos para usuários avançados. |
+
+### LOCAIS
+#### Problema Nº1
+
+#### Problema Nº2
+
+#### Problema Nº3
+* Não existe imagem para ilustrar esse problema.
+
+#### Problema Nº4
+* Não existe imagem para ilustrar esse problema.
+
+#### Problema Nº5
+
+
+#### Problema Nº6
+* Não existe imagem para ilustrar esse problema.
+
+
+### INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA
+#### Heurística 1: Visibilidade do status do sistema
 
 ### Prototipação em baixo nível (papel)
 #### Avaliação heurística
