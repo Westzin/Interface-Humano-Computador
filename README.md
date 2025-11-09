@@ -495,8 +495,8 @@ iv) Formulário de avaliação Heuristica. <br>
 ![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/p_1.PNG)
 
 #### Problema Nº2
-![](http://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/p_2(1).PNG)
-![](http://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/p_2(2).PNG)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/p_2(1).PNG)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/p_2(2).PNG)
 
 #### Problema Nº3
 * Não existe imagem para ilustrar esse problema.
@@ -505,7 +505,7 @@ iv) Formulário de avaliação Heuristica. <br>
 * Não existe imagem para ilustrar esse problema.
 
 #### Problema Nº5
-![](http://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/p_5.PNG)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/p_5.PNG)
 
 #### Problema Nº6
 * Não existe imagem para ilustrar esse problema.
@@ -513,7 +513,7 @@ iv) Formulário de avaliação Heuristica. <br>
 
 ### INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA
 #### Heurística 1: Visibilidade do status do sistema
-![](http://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/Heuristica_boa.PNG)
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/Heuristica_boa.PNG)
 
 ### Prototipação em baixo nível (papel)
 #### Avaliação heurística
