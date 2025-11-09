@@ -519,14 +519,59 @@ iv) Formulário de avaliação Heuristica. <br>
 ## Avaliação de Usabilidade baseado em Observação do Usuário
 
 ### A) Fluxograma de Avaliação de Usabilidade por Observação do Usuário
+![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Fluxograma_Teste_De_Observa%C3%A7%C3%A3o.PNG)
 
 ### B) DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE
+Etapa 1: Definir as tarefas a serem realizadas pelos participantes
+* Crie uma lista objetiva de atividades que representem as principais funcionalidades do sistema.
+
+Etapa 2: Definir o perfil dos participantes e realizar o recrutamento
+* Determine as características desejadas (idade, familiaridade com tecnologia, prática de exercícios).
+* Aplique o Questionário de Perfil do Usuário e selecione os participantes adequados.
+
+Etapa 3: Preparar os materiais de observação e registro
+* Disponibilize o Termo de Consentimento.
+* Monte a Tabela de Observação para registrar tempo, erros, desempenho e satisfação.
+* Certifique-se de que os avaliadores conhecem o sistema e os critérios de avaliação.
+
+Etapa 4: Conduzir o teste piloto
+* Realize uma sessão experimental para verificar se as tarefas estão claras e se os instrumentos funcionam corretamente.
+* Ajuste formulários e tarefas conforme necessário.
+
+Etapa 5: Observar e registrar o desempenho e as opiniões dos participantes
+* Execute o teste oficial.
+* Registre erros, tempo de execução, dificuldades e comentários na Tabela de Observação.
+
+Após o teste oficial:
+
+Etapa 6: Compilar e resumir os dados coletados
+* Organize as informações registradas.
+* Calcule métricas como tempo médio, taxa de sucesso e número de erros.
+* Sintetize os comentários e identifique tendências.
+
+Etapa 7: Elaborar o relatório de resultados e percepções dos participantes
+* Apresente o desempenho geral e as principais dificuldades encontradas.
+* Destaque os erros mais comuns e o feedback dos usuários.
+* Proponha melhorias para a interface e a experiência do usuário.
 
 ### C) RESULTADOS DO TESTE
+
+#### Lista de tarefas
+**Tarefa 1 - Banir dispositivo**
+* O usuário deve clicar no botão banir para remover o dispositivo referido da rede.
+
+**Tarefa 2 - Acessar especificações do dispositivo**
+* O usuário deve clicar no container de um dispositivo para consultar as suas especificações.
+
+**Tarefa 3 - Gerar relatório**
+* O usuário deve ir na aba de relatórios e clicar no botão gerar PDF para gerar um relatório em PDF.
+
 **Avaliação de cada Tarefa (para cada usuário)**
 | Tarefa | Grau de Sucesso     | Total de Erros cometidos | Tipos de Erros       | Tempo Necessário | Grau de Satisfação   |
 |--------|---------------------|---------------------------|----------------------|------------------|----------------------|
-| 1      | Sucesso Parcial     | 2                         | Não completou a tarefa (1), (1) Compreensão | 5 segundos       | Confusão Moderada    |
+| 1A | Sucesso Parcial | 2   | Não completou a tarefa (1), (1) Compreensão | 5 segundos | Confusão Moderada    |
+| 2A | Sucesso Parcial | 2   | Não completou a tarefa (1), (1) Compreensão | 5 segundos | Confusão Moderada    |
+| 3A | Sucesso Parcial | 2   | Não completou a tarefa (1), (1) Compreensão | 5 segundos | Confusão Moderada    |
 
 #### Links dos vídeos: Não aplicável (teste simulado com dados hipotéticos)
 #### Respostas do Formulário do Usuário: 
