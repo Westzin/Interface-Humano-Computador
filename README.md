@@ -447,7 +447,7 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
 ### 2. Lista de instrumentos
 i) 
 [Termo de Consentimento](https://docs.google.com/document/d/10N6lOFfaDS86Skg3XeC7fmAi7qcQc99hjU4yFylIZOg/edit?usp=sharing) <br>
-ii) Questionários  <br>
+ii) [Questionários](https://docs.google.com/forms/d/e/1FAIpQLSdlZSEg7tkqmxci-6PzYbLJcLzT9OnSGTLWzMwGnR13S2wCEw/viewform?usp=dialog)  <br>
 iii) Tabela de Observação <br> 
 iv) Formulário de avaliação Heuristica. <br>
 
@@ -515,6 +515,8 @@ iv) Formulário de avaliação Heuristica. <br>
 #### Heurística 8: Projeto estético e minimalista
 * A interface exibe apenas informações necessárias e possui um design limpo e claro. 
 ![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/Heuristica_boa.PNG)
+
+
 
 ### Prototipação em baixo nível (papel)
 #### Avaliação heurística
