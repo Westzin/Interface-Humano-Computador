@@ -453,7 +453,7 @@ iv) Formulário de avaliação Heuristica. <br>
 
 ## Avaliação de IHC através de Inspeção Heurística
 
-### Avaliação de IHC através de Inspeção HEURÍSTICA
+### 1. Avaliação de IHC através de Inspeção HEURÍSTICA
 **Tabela 1 - Conjunto de heurísticas de Nielsen (1994)**
 | Nº | Heurística | Descrição | Análise |
 |----|-------------|------------|----------|
@@ -511,24 +511,23 @@ iv) Formulário de avaliação Heuristica. <br>
 * Não existe imagem para ilustrar esse problema.
 
 
-### INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA
+### 2. INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA
 #### Heurística 8: Projeto estético e minimalista
 * A interface exibe apenas informações necessárias e possui um design limpo e claro. 
 ![](https://github.com/Westzin/Interface-Humano-Computador/blob/main/Prints%20do%20Prototipo/Heuristica_boa.PNG)
 
+## Avaliação de Usabilidade baseado em Observação do Usuário
 
+### A) Fluxograma de Avaliação de Usabilidade por Observação do Usuário
 
-### Prototipação em baixo nível (papel)
-#### Avaliação heurística
+### B) DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE
 
-### Prtotipação em médio nível (Figma)
-#### Avaliação heurística
+### C) RESULTADOS DO TESTE
+**Avaliação de cada Tarefa (para cada usuário)**
+| Tarefa | Grau de Sucesso     | Total de Erros cometidos | Tipos de Erros       | Tempo Necessário | Grau de Satisfação   |
+|--------|---------------------|---------------------------|----------------------|------------------|----------------------|
+| 1      | Sucesso Parcial     | 2                         | Não completou a tarefa (1), (1) Compreensão | 5 segundos       | Confusão Moderada    |
 
-### Prtotipação em alto nível (React)
-#### Avaliação heurística
-
-[^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
-
-<!-- TODOs:
-- Add exemplos
- -->
+#### Links dos vídeos: Não aplicável (teste simulado com dados hipotéticos)
+#### Respostas do Formulário do Usuário: 
+#### Conclusão da avaliação por observação do usuário: 
