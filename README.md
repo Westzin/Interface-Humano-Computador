@@ -567,11 +567,26 @@ Etapa 7: Elaborar o relatório de resultados e percepções dos participantes
 * O usuário deve ir na aba de relatórios e clicar no botão gerar PDF para gerar um relatório em PDF.
 
 **Avaliação de cada Tarefa (para cada usuário)**
-| Tarefa | Grau de Sucesso     | Total de Erros cometidos | Tipos de Erros       | Tempo Necessário | Grau de Satisfação   |
-|--------|---------------------|---------------------------|----------------------|------------------|----------------------|
-| 1A | Sucesso Parcial | 2   | Não completou a tarefa (1), (1) Compreensão | 5 segundos | Confusão Moderada    |
-| 2A | Sucesso Parcial | 2   | Não completou a tarefa (1), (1) Compreensão | 5 segundos | Confusão Moderada    |
-| 3A | Sucesso Parcial | 2   | Não completou a tarefa (1), (1) Compreensão | 5 segundos | Confusão Moderada    |
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+|--------|-----------------|---------------------------|----------------|------------------|--------------------|
+| 1A | Sucesso Total | 0 | Nenhum | 3 segundos | Satisfação alta |
+| 2A | Sucesso Parcial | 1 | Não percebeu que o container era clicável | 12 segundos | Confusão alta |
+| 3A | Sucesso Parcial | 1 | Dificuldade em encontrar o botão de gerar PDF | 15 segundos | Confusão moderada |
+
+
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+|--------|-----------------|---------------------------|----------------|------------------|--------------------|
+| 1B | Sucesso Total | 0 | Nenhum | 2 segundos | Satisfação alta |
+| 2B | Sucesso Parcial | 1 | Não percebeu que o container era clicável | 8 segundos | Confusão alta |
+| 3B | Sucesso Parcial | 2 | Demorou pra encontrar a aba de relatórios (2), Dificuldade em encontrar o botão de gerar PDF (1) | 25 segundos | Frustração Alta |
+
+
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+|--------|-----------------|---------------------------|----------------|------------------|--------------------|
+| 1C | Sucesso Total| 0 | Nenhum | 1 segundos | Satisfação Alta |
+| 2C | Sucesso Total | 0 | Nenhum | 5 segundos | Satisfação Moderada |
+| 3C | Sucesso Total | 0 | Nenhum | 8 segundos | Satisfeita Moderada |
+
 
 #### Links dos vídeos: Não aplicável (teste simulado com dados hipotéticos)
 #### Respostas do Formulário do Usuário: 
