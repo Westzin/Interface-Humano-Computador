@@ -589,5 +589,12 @@ Etapa 7: Elaborar o relatório de resultados e percepções dos participantes
 
 
 #### Links dos vídeos: Não aplicável (teste simulado com dados hipotéticos)
-#### Respostas do Formulário do Usuário: 
+#### Respostas do Formulário do Usuário: [Resultados da pesquisa](https://docs.google.com/spreadsheets/d/1Ra1ysKmLgOJVzmqkHjoTJ6kPDKHCesBGlONNu_w2fYM/edit?usp=sharing)
 #### Conclusão da avaliação por observação do usuário: 
+A avaliação por observação dos usuários indicou que o sistema apresenta uma boa usabilidade geral, especialmente nas tarefas iniciais e mais diretas. A maioria dos participantes completou as primeiras etapas com rapidez e sem cometer erros, demonstrando que a interface é intuitiva e possui elementos bem posicionados para ações básicas.
+
+As principais dificuldades surgiram nas tarefas intermediárias e finais, relacionadas à interação com componentes menos óbvios da interface, como o container clicável e o botão de geração de PDF. Esses elementos não foram imediatamente reconhecidos como interativos por parte dos usuários, o que resultou em atrasos e níveis de confusão moderada a alta. Em alguns casos, o tempo de execução aumentou significativamente devido à falta de clareza visual desses controles.
+
+Apesar disso, os participantes mantiveram um nível geral de satisfação positivo, destacando que, após compreenderem o funcionamento dos elementos, o uso se tornou simples e eficiente. Os resultados sugerem que o sistema possui um bom potencial de aprendizado e fluidez após o primeiro contato.
+
+De forma geral, a experiência foi considerada satisfatória, com alto desempenho nas tarefas básicas e médias, mas com margem para melhorias nas tarefas que envolvem múltiplas etapas ou dependem de identificação visual de botões e abas. Recomenda-se aprimorar os indicadores visuais de interatividade (como cores, ícones ou animações sutis) e fornecer feedbacks mais claros durante ações críticas, como geração de relatórios, para reduzir a confusão inicial e melhorar a eficiência do uso.
