@@ -479,6 +479,11 @@ Após concluir a investigação, Eduardo solicita a geração automática do rel
 
 ---
 
+### **Quarto Cenário – Auditoria das Ações Realizadas no Sistema**
+
+#### 1. Cenário de Análise/Problema
+Helena Couto, 39 anos, especialista em compliance, precisa auditar todas as ações administrativas realizadas no IDS. Logs crús são difíceis de interpretar e não oferecem uma visão clara das ações críticas realizadas.
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
