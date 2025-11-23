@@ -509,6 +509,11 @@ Rogério Salomão, 31 anos, engenheiro de segurança, precisa reconstruir a prog
 - Que dados são criados?  
 - Que eventos devem ser disparados?
 
+#### 3. Cenário de Interação
+Rogério acessa a ferramenta de timeline e observa a sequência cronológica de eventos, incluindo variações de tráfego e mudanças no score. [1] Ele identifica padrões e relações entre dispositivos. [2] Exporta um relatório final com evidências da investigação. [3]
+
+---
+
 
 
 ## FIGMA
