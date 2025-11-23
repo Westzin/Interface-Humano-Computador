@@ -529,6 +529,25 @@ Rogério acessa a ferramenta de timeline e observa a sequência cronológica de 
 
 ---
 
+## 4) Esquema Conceitual de Signos
+
+### Credenciais (C) — conteúdos essenciais para a comunicação
+
+| signo | origem | observações | tipo de conteúdo | restrição sobre conteúdo | valor default | prevenção (PP) | recuperação (RA) |
+|-------|--------|-------------|------------------|---------------------------|----------------|----------------|-------------------|
+| dispositivo IoT | domínio | elemento analisado | entidade | deve existir na rede | — | PP: Indicador de formato válido | RA: Sugerir dispositivos encontrados |
+| logs de rede | domínio | registros brutos | dados | devem estar íntegros | — | PP: Validar estrutura | CE: Solicitar arquivo válido |
+| janela temporal | domínio | período analisado | seleção | deve ser válida | — | PP: Exibir faixas aceitas | RA: Selecionar período anterior |
+| features extraídas | aplicação | métricas derivadas | atributos | automáticas | — | PP: Informar categorias | — |
+| modelo bayesiano | aplicação | estima probabilidade | componente lógico | — | — | PP: Exibir descrição | — |
+| rede neural | aplicação | gera score | componente lógico | — | — | PP: Exibir resumo | — |
+| ensemble | aplicação | combinação dos modelos | operação | — | — | PP: Explicar combinação | — |
+| score final | aplicação | nível de risco | valor numérico | 0–1 | — | PP: Legenda de interpretação | — |
+| rótulo | aplicação | normal/intruso | categoria | binário | — | PP: Exibir significado | — |
+| relatório | aplicação | documento gerado | arquivo PDF | deve ser válido | — | PP: Mostrar conteúdo antes | RA: Regenerar relatório |
+
+---
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
