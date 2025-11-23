@@ -514,7 +514,20 @@ Rogério acessa a ferramenta de timeline e observa a sequência cronológica de 
 
 ---
 
+## 2) Design Centrado na Comunicação
 
+**Nome do Cenário:** Analisar Dispositivo IoT Suspeito
+
+| tópico > subtópico (diálogo) | falas e signos |
+|-------------------------------|----------------|
+| iniciar análise | U (André): Preciso verificar um possível comportamento suspeito neste dispositivo IoT. <br> D: Deseja usar dados recentes ou carregar registros anteriores? |
+| > selecionar dados | U: Usar dados recentes. <br> D: Registros das últimas horas carregados. Deseja iniciar a análise detalhada? |
+| processar dados | U: Sim, inicie a análise. <br> D: Processando dados… Extraindo métricas… Aplicando modelos… |
+| interpretar resultado | D: A análise está pronta. O dispositivo apresenta score elevado de intrusão. <br> U: Mostre os fatores detectados. |
+| decidir ação | D: Aqui estão os indicadores principais. Deseja gerar relatório? <br> U: Sim, gerar. |
+| concluir | D: Relatório criado e registrado com sucesso. |
+
+---
 
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
