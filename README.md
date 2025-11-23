@@ -501,6 +501,14 @@ Helena acessa a área de auditoria e visualiza o histórico das ações realizad
 #### 1. Cenário de Análise/Problema
 Rogério Salomão, 31 anos, engenheiro de segurança, precisa reconstruir a progressão de um ataque envolvendo dispositivos IoT. Logs fragmentados tornam a análise difícil.
 
+#### 2. Questões de Refinamento
+- Como os eventos do ataque devem ser organizados?  
+- Que informações são necessárias para entender a progressão?  
+- Quais erros podem ocorrer?  
+- Quem consome os resultados?  
+- Que dados são criados?  
+- Que eventos devem ser disparados?
+
 
 
 ## FIGMA
