@@ -419,6 +419,26 @@ Sim nosso projeto ira considerar aspectos eticos, o sistema armazenara dados com
 | ABNT NBR ISO 9241 Ergonomia da interação humano-sistema |  Esta série de normas brasileiras, baseadas nas normas ISO 9241, fornece diretrizes e orientações para o design centrado no usuário de sistemas interativos, incluindo a concepção de interfaces de usuário. A parte 210 aborda o processo de design centrado no humano, enquanto a parte 11 fornece orientações específicas sobre usabilidade. Essas normas são importantes para o projeto porque estabelecem princípios e métodos para garantir que a interface do usuário atenda às necessidades e expectativas dos usuários. | [https://www.inf.ufsc.br/\~edla.ramos/ine5624/\_Walter/Normas/Parte%2011/iso9241-11F2.pdf](https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf) |
 |  | . |  |
 
+# 09 – Modelo Conceitual
+
+## 1) Cenários de Interação
+
+---
+
+### **Primeiro Cenário – Analisar um Dispositivo da Rede**
+
+#### 1. Cenário de Análise/Problema
+André Martins, 33 anos, analista de segurança, precisa analisar o comportamento de um dispositivo IoT que apresentou tráfego suspeito em sua rede corporativa. Ele precisa identificar rapidamente se o tráfego indica uma possível tentativa de intrusão, mas o grande volume de dados e a necessidade de interpretar logs manualmente tornam o processo lento e propenso a erros.
+
+#### 2. Questões de Refinamento
+- Que informações o ator precisa para analisar o dispositivo?  
+- Quais situações disparam a necessidade da análise?  
+- Que dispositivos estão disponíveis para realizar a tarefa?  
+- Quais erros podem ocorrer e como corrigi-los?  
+- Quem depende do resultado da análise?  
+- Quais dados são criados, consumidos e manipulados?  
+- Quais eventos são disparados após o resultado?
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
