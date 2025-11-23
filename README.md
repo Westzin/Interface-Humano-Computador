@@ -491,6 +491,11 @@ Helena Couto, 39 anos, especialista em compliance, precisa auditar todas as aç�
 - Que dados são manipulados?  
 - Que eventos são gerados após a auditoria?
 
+#### 3. Cenário de Interação
+Helena acessa a área de auditoria e visualiza o histórico das ações realizadas, como bloqueios, análises e alterações de configuração. [1] Ela filtra ações por período. [2] Ao selecionar uma ação, visualiza detalhes como autor, justificativa e resultado. [3] Ela exporta o histórico para registro ou auditorias externas. [4]
+
+---
+
 
 
 ## FIGMA
