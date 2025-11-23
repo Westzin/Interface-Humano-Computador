@@ -484,6 +484,15 @@ Após concluir a investigação, Eduardo solicita a geração automática do rel
 #### 1. Cenário de Análise/Problema
 Helena Couto, 39 anos, especialista em compliance, precisa auditar todas as ações administrativas realizadas no IDS. Logs crús são difíceis de interpretar e não oferecem uma visão clara das ações críticas realizadas.
 
+#### 2. Questões de Refinamento
+- Quais ações devem ser auditadas?  
+- Quem consome essas informações?  
+- Quais erros podem ocorrer na consulta?  
+- Que dados são manipulados?  
+- Que eventos são gerados após a auditoria?
+
+
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
