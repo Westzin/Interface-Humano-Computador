@@ -457,6 +457,11 @@ Larissa Figueira, 28 anos, engenheira de redes, precisa bloquear um dispositivo 
 - Que resultado o ator deseja alcançar?  
 - Que eventos devem ser disparados após o bloqueio?
 
+#### 3. Cenário de Interação
+Larissa seleciona o dispositivo classificado como intruso e opta por aplicar o bloqueio. [1] Ela escolhe entre bloqueio temporário ou permanente. [2] O sistema aplica automaticamente a regra de bloqueio e propaga as atualizações. [3] Larissa verifica a confirmação de isolamento e revisa o registro da ação para documentação. [4]
+
+---
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
