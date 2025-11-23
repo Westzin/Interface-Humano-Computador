@@ -529,7 +529,7 @@ Rogério acessa a ferramenta de timeline e observa a sequência cronológica de 
 
 ---
 
-## 4) Esquema Conceitual de Signos
+## 3) Esquema Conceitual de Signos
 
 ### Credenciais (C) — conteúdos essenciais para a comunicação
 
