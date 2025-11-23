@@ -449,6 +449,14 @@ André deseja confirmar se um dispositivo IoT está comprometido, analisando seu
 #### 1. Cenário de Análise/Problema
 Larissa Figueira, 28 anos, engenheira de redes, precisa bloquear um dispositivo IoT identificado como comprometido. Fazer isso manualmente exige acessar diversos sistemas diferentes, o que pode atrasar a resposta e permitir que o ataque continue.
 
+#### 2. Questões de Refinamento
+- Que informações são necessárias para decidir o bloqueio?  
+- Quais tipos de bloqueio podem ser aplicados?  
+- Quais erros podem ocorrer durante o processo?  
+- Quem depende da ação?  
+- Que resultado o ator deseja alcançar?  
+- Que eventos devem ser disparados após o bloqueio?
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
