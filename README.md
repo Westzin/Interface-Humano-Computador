@@ -474,6 +474,11 @@ Eduardo Paes, 45 anos, gerente de tecnologia, precisa gerar um relatório detalh
 - Que dados são criados durante o processo?  
 - Que eventos devem ocorrer após sua geração?
 
+#### 3. Cenário de Interação
+Após concluir a investigação, Eduardo solicita a geração automática do relatório, que consolida logs, timeline, classificações e scores. [1] O sistema compila os dados relevantes e monta um documento organizado. [2] Eduardo revisa e exporta o relatório para uso interno e tomada de decisão. [3]
+
+---
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
