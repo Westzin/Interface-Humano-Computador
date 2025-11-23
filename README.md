@@ -496,6 +496,11 @@ Helena acessa a área de auditoria e visualiza o histórico das ações realizad
 
 ---
 
+### **Quinto Cenário – Investigar a Timeline de um Ataque**
+
+#### 1. Cenário de Análise/Problema
+Rogério Salomão, 31 anos, engenheiro de segurança, precisa reconstruir a progressão de um ataque envolvendo dispositivos IoT. Logs fragmentados tornam a análise difícil.
+
 
 
 ## FIGMA
