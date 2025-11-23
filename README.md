@@ -467,6 +467,13 @@ Larissa seleciona o dispositivo classificado como intruso e opta por aplicar o b
 #### 1. Cenário de Análise/Problema
 Eduardo Paes, 45 anos, gerente de tecnologia, precisa gerar um relatório detalhado sobre um incidente para apresentar à diretoria. Fazer isso manualmente é demorado e pode gerar inconsistências.
 
+#### 2. Questões de Refinamento
+- Quais informações o relatório deve conter?  
+- Quem utilizará o relatório?  
+- Quais erros podem ocorrer ao compilá-lo?  
+- Que dados são criados durante o processo?  
+- Que eventos devem ocorrer após sua geração?
+
 ## FIGMA
 [Link para o protótipo feito no figma](https://www.figma.com/proto/plJfl37vVXmdxtc0YtbM4O/Untitled?node-id=4-396&t=UAMbQmrPicrESdyM-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A209)
 
